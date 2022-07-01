@@ -4,7 +4,7 @@
   "description": "This is a project that i made watching a tutorial in platzi! using Tailwind, API consumption, and fantastic technologies that you can watch here!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d srcs"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/OmarCL09/async-landing/issues"
   },
-  "homepage": "https://github.com/OmarCL09/async-landing#readme"
+  "homepage": "https://github.com/OmarCL09/async-landing#readme",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
 }
